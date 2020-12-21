@@ -80,6 +80,8 @@ where `container_id` is the name/ID of the launched JupyterLab container.
 docker exec -u `id -un` container_id jupyter notebook list
 ``` 
 
+## [Detailed Information](http://www.legendu.net/en/blog/my-docker-images/#list-of-images-and-detailed-information) 
+
 ## [Known Issues](http://www.legendu.net/en/blog/my-docker-images/#known-issues)
 
 ## [About the Author](http://www.legendu.net/pages/about)
