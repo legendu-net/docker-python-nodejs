@@ -80,16 +80,8 @@ where `container_id` is the name/ID of the launched JupyterLab container.
 docker exec -u `id -un` container_id jupyter notebook list
 ``` 
 
-## Known Issues
+## [Known Issues](http://www.legendu.net/en/blog/my-docker-images/#known-issues)
 
-1. The subprocess managment issue. 
-    This is not an issue at in most use cases. 
-    This Docker image launch service using a shell script 
-    so there won't be orphan subprocesses 
-    when the process of the Docker container is get killed.
-    However, launching by shell script is not the best way for managing processes.
-    I might switch to the [Supervisor](https://github.com/Supervisor/supervisor) for process management 
-    or use the base image of [pushion/ubuntu](https://github.com/phusion/baseimage-docker) in future. 
 
 ## About the Author
 
