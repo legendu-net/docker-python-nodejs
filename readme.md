@@ -82,7 +82,4 @@ docker exec -u `id -un` container_id jupyter notebook list
 
 ## [Known Issues](http://www.legendu.net/en/blog/my-docker-images/#known-issues)
 
-
-## About the Author
-
-[Personal Blog](http://www.legendu.net)   |   [GitHub](https://github.com/dclong)   |   [Bitbucket](https://bitbucket.org/dclong/)   |   [LinkedIn](http://www.linkedin.com/in/ben-chuanlong-du-1239b221/)
+## [About the Author](http://www.legendu.net/pages/about)
