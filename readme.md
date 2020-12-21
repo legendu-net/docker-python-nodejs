@@ -59,7 +59,7 @@ Keep the default if you don't know what are the best to use.
     Of course, users can always change it later using the command `passwd`.
 
 ```
-docker run -d \
+docker run -d --init \
     --log-opt max-size=50m \
     -p 8888:8888 \
     -e DOCKER_USER=`id -un` \
