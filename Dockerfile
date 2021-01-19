@@ -7,7 +7,7 @@ RUN apt-get update \
         nodejs npm \
     && npm install -g n \
     && n lts \
-    && npm cache clean --force \
+    #&& npm cache clean --force \
     && apt-get autoremove \
     && apt-get autoclean
 
