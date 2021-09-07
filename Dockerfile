@@ -10,4 +10,4 @@ RUN apt-get update \
     #&& npm cache clean --force \
     && apt-get autoremove -y \
     && apt-get autoclean -y \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
