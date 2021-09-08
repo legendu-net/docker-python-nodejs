@@ -8,6 +8,4 @@ RUN apt-get update \
     && npm install -g n \
     && n lts \
     #&& npm cache clean --force \
-    && apt-get autoremove -y \
-    && apt-get autoclean -y \
-    && rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
+    && /scripts/sys/purge_cache.sh
