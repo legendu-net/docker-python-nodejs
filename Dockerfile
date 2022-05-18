@@ -1,6 +1,6 @@
 # NAME: dclong/python-nodejs
 FROM dclong/python
-# GIT: https://github.com/dclong/docker-python.git
+# GIT: https://github.com/legendu-net/docker-python.git
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
