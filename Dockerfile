@@ -2,8 +2,8 @@
 FROM dclong/python
 # GIT: https://github.com/legendu-net/docker-python.git
 
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
+RUN apt-get -y update \
+    && apt-get -y install --no-install-recommends \
         nodejs npm \
     && npm install -g n \
     && n lts \
